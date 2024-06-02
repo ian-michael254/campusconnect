@@ -1,35 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
-#landing-nav{
-    display:flex;
-    align-items:center;
-    justify-content: space-around;
-    background-color:rgb(84, 163, 5);
+body{
+    background-color:rgb(167,223,176);
 }
-#landing-nav li{
-    list-style: none;
-    margin:5px;
-    display: inline-block;
-    padding: 10px 20px;
-}
-#landing-nav a{
-    display: block;
-    text-decoration:none;
-    color:#000;
-    align-items: flex-end;
-    font-size:18px;
-    font-weight:400;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    transition:all .4s linear.4s;
-}
-#landing-nav a:hover{
-    background-color: aliceblue;
-    padding:7px;
-    transition: all .4s linear .4s;
-    border-radius:10px;
 
+
+
+.form-container{
+    max-width:700px;
+    height:90vh;
+    padding:20px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+#sign-up{
+    padding:30px;
+    border:2px solid #aa997d;
+    max-width:100%;
+}
+input{
+    width:100%;
+    padding:15px;
+    margin:20px 5px;
+    border-radius:10px;
+    border:none;
+    font-size:18px;
+    font-family:'Titillium Web',sans-serif;
+    background-color:#fcfce0;
+    
+}
+.heading{
+    font-size:40px;
+    text-align:center;
+    text-transform: capitalize;
+    font-family:'Seymour One', sans-serif;
+    color:#edf0f1;
+    
+}
+.sign-title{
+    margin-bottom:20px;
+}
+#sign-up img{
+    max-width:30px;
+    display:inline-block;
+    margin:auto 25px;
+    cursor:pointer;
+}
+.socials{
+    width:50%;
+    
+    margin:2px auto;
+    padding:10px;
+}
+
+.image-container{
+    max-width: 700px;
+    height:90vh;
+    position:absolute;
+    top:13%;
+    left:59%;
+    z-index: 10;
+
+    
+ 
+}
+.image-container img{
+    max-width:700px;
+    height:80vh;
+    z-index: 15;
+    
+}
+input[type="submit"]{
+    background-color:rgb(166,162,67);
+    color:#edf0f1;
+    cursor: pointer;
+}
+input[type="date"]{
+    color:grey;
+}
+
+/*second*/
+.container-main{
+    width:1200px;
+    height:70vh;
+    margin:100px auto;
+     background-color:white;
+}
+.container-main img{
+    max-width:50%;
+    height:100%;
 }

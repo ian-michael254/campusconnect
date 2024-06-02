@@ -7,13 +7,31 @@
     <title>campusconnect</title>
 </head>
 <body>
-    <nav id="landing-nav">
-        <img src="" alt="logo">
-        <ul>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-    </nav>
+    <!--NAVIGATION-->
+    
+    <!--SIGN IN FORM-->
+    
+    <div class="form-container">
+        
+        <form id="sign-up" action="" method="post">
+            <h2 class="heading sign-title">sign up</h2>
+            <label for="firstname"></label><input type="text" placeholder="First name...." required>
+            <label for="lastname"></label><input type="text" placeholder="Last name...." required>
+            <label for="email"></label><input type="email" name="email" id="email" placeholder="Email address" required>
+            <label for="dob"></label><input type="date" name="dateofbirth" id="dob" required>
+            <label for="regNo"></label><input type="text" name="regNo" id="regNo" placeholder="School Reg No" max="10" min="10">
+            <div class="socials">
+            <img src="/images/social.png" alt="google">
+            <img src="/images/github.png" alt="github">
+            <img src="/images/settings.png" alt="cpanel">
+            </div>
+            <input id="sign btn" type="submit" value="Sign Up">
+        </form>
+    </div>
+    <div class="image-container">
+        <img src="/images/portrait-young-student-with-book-education-day-removebg-preview.png" alt="">
+    </div>
+
     
 </body>
 </html>
